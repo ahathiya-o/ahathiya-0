@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Boxes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="box" onclick="toggleBox(this)">
+      <div class="box-header">Top Box</div>
+      <div class="box-content">
+        <label>Size:
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+        </label>
+        <label>Color:
+          <select>
+            <option>Red</option>
+            <option>Black</option>
+            <option>White</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <div class="box" onclick="toggleBox(this)">
+      <div class="box-header">Middle Box</div>
+      <div class="box-content">
+        <label>Size:
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+        </label>
+        <label>Color:
+          <select>
+            <option>Red</option>
+            <option>Black</option>
+            <option>White</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <div class="box" onclick="toggleBox(this)">
+      <div class="box-header">Bottom Box</div>
+      <div class="box-content">
+        <label>Size:
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+        </label>
+        <label>Color:
+          <select>
+            <option>Red</option>
+            <option>Black</option>
+            <option>White</option>
+          </select>
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
